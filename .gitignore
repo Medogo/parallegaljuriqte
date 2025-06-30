@@ -1,0 +1,40 @@
+# Environnements virtuels
+venv/
+.env
+.env.*
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers temporaires
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers de base de données
+*.sqlite3
+db.sqlite3
+
+# Dossiers de build
+build/
+dist/
+*.egg-info/
+
+# Fichiers de configuration locaux
+.DS_Store
+.idea/
+.vscode/
+
+# Fichiers de migration auto-générés
+*/migrations/__pycache__/
+
+# Static & media
+/staticfiles/
+/media/
+
+# Autres fichiers sensibles
+secrets.json 
